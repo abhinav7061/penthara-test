@@ -26,7 +26,12 @@ const Hero = () => {
         };
     }, []);
     return (
-        <section id='appointment' className='h-[700px] w-full flex items-start' style={{ backgroundImage: `url("//images.hertz.com/content/Intl/1920x900_Hero_Banner/hero_summer_eucorp.jpg")` }}>
+        <section id='appointment' className='h-[900px] w-full flex items-start' style={{
+            backgroundImage: `url("//images.hertz.com/content/Intl/1920x900_Hero_Banner/hero_summer_eucorp.jpg")`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+        }}>
             <div className='flex flex-col justify-center items-start h-[530px] p-8 w-full'>
                 <div className='w-full'>
                     <h1 className=' text-white text-5xl mb-10'>Hertz Rental Car. Let’s Go!</h1>
